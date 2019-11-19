@@ -22,10 +22,33 @@
 }
 
 .signup-form button {
-    background: #F46001;
+    background: #f9a825;
     color: black;
     margin: 20px;
     border-radius: 7px;
     width: 180px;
     height: 40px;
+    border: none;
+}
+
+
+/* label color */
+
+.field-color label {
+    color: #000;
+}
+
+
+/* label focus color */
+
+.field-color input[type=text]:focus+label {
+    color: #f9a825;
+}
+
+
+/* label underline focus color */
+
+.field-color input[type=text]:focus {
+    border-bottom: 1px solid #f9a825;
+    box-shadow: 0 1px 0 0 #f9a825;
 }
