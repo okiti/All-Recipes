@@ -16,13 +16,14 @@ body {
 }
 
 .navigation a {
+    width: 150px;
     margin: 10px;
     font-weight: 700;
 }
 
 .navigation a:hover {
-    background: #000000;
-    color: #ffffff;
+    background: #ffffff;
+    color: #42a5f5;
     margin: 10px;
 }
 
@@ -34,6 +35,18 @@ body {
     background-size: cover;
     height: 350px;
     border: 2px solid #e9a1f3;
+}
+
+.jumbotron p:first-child {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.jumbotron p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 3px;
 }
 
 .search {
@@ -70,6 +83,10 @@ body {
     border-radius: 5px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.second-half i {
+    margin: 0px auto;
 }
 
 .third-half {
