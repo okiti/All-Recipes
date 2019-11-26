@@ -1,14 +1,8 @@
-.signup-form {
+.signin-form {
     border: 1px solid black;
-    width: 500px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     margin-top: 50px;
-}
-
-.blue-text {
-    color: cornflowerblue;
-    text-align: center;
-    font-size: 14px;
 }
 
 .title-div {
@@ -27,11 +21,10 @@
     margin: 15px;
 }
 
-.signup-form button {
+.signin-form button {
     background: #f9a825;
     color: black;
     margin: 20px;
-    margin-bottom: 4px;
     border-radius: 7px;
     width: 180px;
     height: 40px;

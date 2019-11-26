@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/tayo.css" />
+    <link rel="stylesheet" href="../css/profile.css" />
+    <title>Profile</title>
+</head>
+
+<body>
+    <div class="flex flex-wrap column vh-100">
+        <section class="flex row navigation">
+            <nav class="flex row col-lg-6 align-items-center">
+                <div class="flex row justify-content-space-between col-lg-6 align-items-center">
+                    <a class="justify-content-flex-start logo" href="../html/home.html">All-Recipes</a
+            >
+            <ul class="flex row justify-content-flex-end">
+              <li><a><i class="material-icons">
+                shopping_cart
+                </i></a></li>
+                    <li><a><i class="material-icons">
+                      menu_book
+                      </i></a></li>
+                    <li><a><i class="material-icons">
+                      call
+                      </i></a></li>
+                    <li><a><i class="material-icons">
+                      vpn_key
+                      </i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section class="flex nowrap row body-section">
+            <section class="flex flex-wrap column justify-content-flex-start align-items-start right-body-section">
+                <section class="flex column image-wrapper">
+                    <div>
+                        <img src="../img/woman-wearing-sunhat-1382731.jpg" alt="ProfileImage" class="profile-img" />
+                    </div>
+                </section>
+                <section class=" flex column info-wrapper">
+                    <div>
+                        <p class="text-17">Email: YoshiBabu@gmail.com</p>
+                        <a href="www.gmail.com">
+                            <p class="text-17">
+                                <i class="material-icons left"> mail </i>Send Mail
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <p class="text-17">Profession: Teacher</p>
+                        <p class="text-17">
+                            <a><i class="material-icons left"> person_add </i>Invite friends</a>
+                        </p>
+                    </div>
+                </section>
+                <section class="flex column ">
+                    <p class="text-17">Has All-Recipe been helpful?</p>
+                    <p class="text-17">We love feedbacks</p>
+                    <p class="text-17">
+                        <i class="material-icons left"> chat </i>Contact Us
+                    </p>
+                </section>
+            </section>
+            <section class="flex flex-wrap column ">
+                <section class="flex flex-wrap column align-items-start ">
+                    <h3>Susan White</h3>
+                    <p class="text-13">CEO Delish Foods</p>
+                    <div class="Stars" style="--rating: 3.0;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                    <ul class="flex flex-wrap row activity-ul">
+                        <li><i class="material-icons left"> edit </i>Edit Profile</li>
+                        <li><i class="material-icons left"> comment </i>Messages</li>
+                        <li><i class="material-icons left"> people_alt </i>Followers</li>
+                        <li>
+                            <a href="../html/cardview.html"><i class="material-icons left"> menu_book </i>Your Recipes</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="flex flex-wrap column align-items-start">
+            <div class="flex flex-wrap row justify-content-flex-start">
+              <section class="sidetabs">
+                <input
+                  id="sidetab-1"
+                  type="radio"
+                  name="radio-set"
+                  class="sidetab-selector-1"
+                  checked="checked"
+                />
+                <label for="sidetab-1" class="sidetab-label-1"
+                  ><i class="material-icons prefix">
+                    person
+                  </i>
+                  About</label
+                >
+
+                <input
+                  id="sidetab-2"
+                  type="radio"
+                  name="radio-set"
+                  class="sidetab-selector-2"
+                />
+                <label for="sidetab-2" class="sidetab-label-2">More</label>
+
+                <!--<div class="clear-shadow"></div>-->
+
+                <div class="content">
+                  <div class="content-1">
+                    <h2>About</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Quisque lacinia leo sit amet diam varius, ac maximus
+                      turpis volutpat. Cras interdum nulla orci, eget convallis
+                      tellus mollis ac. Quisque nunc mi, vulputate eget mi id,
+                      fringilla rhoncus dui. Morbi
+                    </p>
+                  </div>
+                  <div class="content-2">
+                    <h2>sidetab 2</h2>
+                    <p>
+                      Aenean tristique hendrerit sapien in porta. Aliquam
+                      feugiat luctus blandit. Cras nunc ex, egestas in consequat
+                      ac, egestas vitae lectus. Nunc convallis purus sed ex
+                      pretium, sit amet dapibus lorem efficitur. Nulla facilisi.
+                      Vivamus ut metus purus. Nam
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+        </section>
+      </section>
+    </div>
+
+    <script type="text/javascript " src="../js/materialize.min.js "></script>
+    <script>
+      $(document).ready(function() {
+                  $('.tabs').tabs();
+                  instance.select("tab_id");
+                  instance.updateTabIndicator();
+    </script>
+  </body>
+</html>
