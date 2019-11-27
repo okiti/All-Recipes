@@ -11,8 +11,11 @@
     <title>Profile</title>
 </head>
 
+<!-- opening body tag -->
+
 <body>
-    <div class="flex flex-wrap column vh-100">
+    <div class="flex flex-wrap column">
+        <!-- opening nav section -->
         <section class="flex row navigation">
             <nav class="flex row col-lg-6 align-items-center">
                 <div class="flex row justify-content-space-between col-lg-6 align-items-center">
@@ -35,13 +38,19 @@
                 </div>
             </nav>
         </section>
+        <!-- closing nav section -->
+        <!-- opening body section -->
         <section class="flex nowrap row body-section">
+            <!-- opening body section right-hand-side -->
             <section class="flex flex-wrap column justify-content-flex-start align-items-start right-body-section">
+                <!-- opening right-hand-side img-wrapper section tag -->
                 <section class="flex column image-wrapper">
                     <div>
                         <img src="../img/woman-wearing-sunhat-1382731.jpg" alt="ProfileImage" class="profile-img" />
                     </div>
                 </section>
+                <!-- closing right-hand-side img-wrapper section tag -->
+                <!-- opening right-hand-side info-wrapper section tag -->
                 <section class=" flex column info-wrapper">
                     <div>
                         <p class="text-17">Email: YoshiBabu@gmail.com</p>
@@ -58,6 +67,8 @@
                         </p>
                     </div>
                 </section>
+                <!-- closing right-hand-side info-wrapper section tag -->
+                <!-- opening right-hand-side helper-wrapper section tag -->
                 <section class="flex column ">
                     <p class="text-17">Has All-Recipe been helpful?</p>
                     <p class="text-17">We love feedbacks</p>
@@ -65,8 +76,12 @@
                         <i class="material-icons left"> chat </i>Contact Us
                     </p>
                 </section>
+                <!-- closing right-hand-side helper-wrapper section tag -->
+                <!-- closing body section right-hand-side -->
             </section>
+            <!-- opening left-hand-side section tag -->
             <section class="flex flex-wrap column ">
+                <!-- opening left-hand-side detail-wrapper section tag -->
                 <section class="flex flex-wrap column align-items-start ">
                     <h3>Susan White</h3>
                     <p class="text-13">CEO Delish Foods</p>
@@ -76,73 +91,18 @@
                         <li><i class="material-icons left"> comment </i>Messages</li>
                         <li><i class="material-icons left"> people_alt </i>Followers</li>
                         <li>
-                            <a href="../html/cardview.html"><i class="material-icons left"> menu_book </i>Your Recipes</a
-                >
-              </li>
-            </ul>
-          </section>
-          <section class="flex flex-wrap column align-items-start">
-            <div class="flex flex-wrap row justify-content-flex-start">
-              <section class="sidetabs">
-                <input
-                  id="sidetab-1"
-                  type="radio"
-                  name="radio-set"
-                  class="sidetab-selector-1"
-                  checked="checked"
-                />
-                <label for="sidetab-1" class="sidetab-label-1"
-                  ><i class="material-icons prefix">
-                    person
-                  </i>
-                  About</label
-                >
-
-                <input
-                  id="sidetab-2"
-                  type="radio"
-                  name="radio-set"
-                  class="sidetab-selector-2"
-                />
-                <label for="sidetab-2" class="sidetab-label-2">More</label>
-
-                <!--<div class="clear-shadow"></div>-->
-
-                <div class="content">
-                  <div class="content-1">
-                    <h2>About</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Quisque lacinia leo sit amet diam varius, ac maximus
-                      turpis volutpat. Cras interdum nulla orci, eget convallis
-                      tellus mollis ac. Quisque nunc mi, vulputate eget mi id,
-                      fringilla rhoncus dui. Morbi
-                    </p>
-                  </div>
-                  <div class="content-2">
-                    <h2>sidetab 2</h2>
-                    <p>
-                      Aenean tristique hendrerit sapien in porta. Aliquam
-                      feugiat luctus blandit. Cras nunc ex, egestas in consequat
-                      ac, egestas vitae lectus. Nunc convallis purus sed ex
-                      pretium, sit amet dapibus lorem efficitur. Nulla facilisi.
-                      Vivamus ut metus purus. Nam
-                    </p>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </section>
+                            <a href="../html/cardview.html"><i class="material-icons left"> menu_book </i>Your Recipes</a>
+                        </li>
+                    </ul>
+                </section>
+                <!-- closing left-hand-side detail-wrapper section tag -->
+            </section>
+            <!-- closing left-hand-side section tag -->
         </section>
-      </section>
+        <!-- closing body section tag -->
     </div>
 
     <script type="text/javascript " src="../js/materialize.min.js "></script>
-    <script>
-      $(document).ready(function() {
-                  $('.tabs').tabs();
-                  instance.select("tab_id");
-                  instance.updateTabIndicator();
-    </script>
-  </body>
+</body>
+
 </html>
